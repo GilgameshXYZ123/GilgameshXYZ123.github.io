@@ -2,58 +2,130 @@
 <html>
     <head>
         <title>Welcome to my page.</title>
+        <meta charset="UTF-8">
+        <style>
+            .main{
+                font-family: "Times New Roman";
+                margin-left: 20pt;
+            }
+            
+            .section{
+                font-size: 28pt;
+                margin-top: 30pt;
+            }
+            
+            .subsection{
+                font-size: 18pt;
+                margin-left: 30pt
+            }
+            
+            .text{
+                font-size: 18pt;
+                margin-left: 40pt;
+            }
+            
+            .nametext{
+                font-size: 16pt;
+                margin-left: 100pt;
+            }
+            .pubtext{
+                font-size: 16pt;
+                margin-left: 100pt;
+            }
+        </style>
     </head>
-    <body>
+    <body class="main">
         <div>
-            <h1>Under Construction</h1>
-            <p>
-                Hi! My name is Zhiyi Zhang (’≈÷«“Á). 
-                I was born in 2000.4.
+            <b class="section">Self-Introduction</b>
+            <p class="text">
+                Hi! My name is Âº†Êô∫Ê∫¢ (Zhiyi Zhang). 
+                I was born in Apri. 2000, Xuan Cheng, Anhui Province China.
+                I am now a Third-Master Student in University of Science and Technology of China.
+                My research interests are on Deep Learning, Parallel Computing, and Computer Artchitecture.
+                Currrently, I pay more attentions on Large Language Models (LLMs).
+                
             </p>
         </div>
+        <br>
         <!--=====[Education]=================================================-->
         <div>
-            <h2>Education</h2>
+            <h2 class="section">Education</h2>
+            <div>
+                <b class="subsection">
+                    Sep. 2025 - Present &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                    University of Science and Technology of China
+                </b>
+                <p class="text">Doctoral Researcher in Computer Science</p>
+            </div>
+            <div>
+                <b class="subsection">
+                    Sep. 2022 - Jun. 2025  &nbsp;&nbsp;&nbsp;&nbsp; 
+                    University of Science and Technology of China
+                </b>
+                <p class="text">Master of Pattern Recognition and Intelligent System</p>
+            </div>
+            <div>
+                <b class="subsection">
+                    Sep. 2018 - Jun. 2022 &nbsp;&nbsp;&nbsp;&nbsp; 
+                    Hainan University, China
+                </b>
+                <p class="text">Bachelar of Software Engineering</p>
+            </div>
         </div>
-       
+        <br>
         <!--=====[Publications]==============================================-->
         <div>
-            <h2>First-Author Publications</h2>
+            <h2 class="section">First-Author Publications</h2>
             <div>
-                <h4>2025 WinRS: Accelerate Winograd Backward-Filter Convolution with Tiny Workspace</h4>
-                <p>Zhiyi Zhang, Junshi Chen, Jingwei Sun, Pengfei Zhang, Zhuopin Xu, Junshi, Qi Wang</p>
-                <p>
-                    Accepted by International Conference on Parallel Processing (ICPP)
+                <b class="subsection">
+                    2025 &nbsp;&nbsp;
+                    WinRS: Accelerate Winograd Backward-Filter Convolution with Tiny Workspace
+                </b>
+                <p class="nametext">Zhiyi Zhang, Junshi Chen, Jingwei Sun, Pengfei Zhang, Zhuopin Xu, Junshi, Qi Wang.</p>
+                <p class="pubtext">
+                    Accepted by International Conference on Parallel Processing (ICPP).
                     <a href="papers/WinRS.pdf">[pdf]</a>
                 </p>
             </div>
             <div>
-                <h4>2025 Common Feature Representation Learning for Multi-Crop Seed Classification via Hyperspectral Images</h4>
-                <p>Zhiyi Zhang, Jiading Yuan, Pengfei Zhang, Zhuopin Xu, Qi Wang</p>
-                <p>
-                    In Submission
+                <b class="subsection"> 
+                    2025 &nbsp;&nbsp;
+                    Common Feature Representation Learning for Multi-Crop Seed Classification via Hyperspectral Images</b>
+                <p class="nametext">Zhiyi Zhang, Jiading Yuan, Pengfei Zhang, Zhuopin Xu, Qi Wang.</p>
+                <p class="pubtext">
+                    In Submission. 
                     <a href="papers/CFRL.pdf">[pdf]</a>
                 </p>
             </div>
             <div>
-                <h4>2024 Im2col-Winograd: An Efficient and Flexible Fused-Winograd Convolution for NHWC Format on GPUs</h4>
-                <p>Zhiyi Zhang, Pengfei Zhang, Zhuopin Xu, Bingjie Yan, Qi Wang.</p>
-                <p>
+                <b class="subsection">
+                    2024 &nbsp;&nbsp;
+                    Im2col-Winograd: An Efficient and Flexible Fused-Winograd Convolution for NHWC Format on GPUs
+                </b>
+                <p class="nametext">Zhiyi Zhang, Pengfei Zhang, Zhuopin Xu, Bingjie Yan, Qi Wang.</p>
+                <p class="pubtext">
                     Accepted by International Conference on Parallel Processing (ICPP)
                     <a href="papers/Im2col-Winograd.pdf">[pdf]</a>
                 </p>
             </div>
             <div>
-                <h4>2023 Reduce Computational Complexity for Convolutional Layers by Skipping Zeros</h4>
-                <p>
+                <b class="subsection">
+                    2023 &nbsp;&nbsp;
+                    Reduce Computational Complexity for Convolutional Layers by Skipping Zeros
+                </b>
+                <p class="nametext">Zhiyi Zhang, Pengfei Zhang, Zhuopin Xu, Bingjie Yan, Qi Wang.</p>
+                <p class="pubtext">
                     IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)
                     <a href="papers/C-K-S.pdf">[pdf]</a>
                 </p>
             </div>
             <div>
-                <h4>2023 Dragon-Alpha&Cu32: Open-source Java Deep-Learning Framework and High-Performance GPU Library</h4>
-                <p>Zhiyi Zhang, Pengfei Zhang, Zhuopin Xu</p>
-                <p>
+                <b class="subsection">
+                    2023 &nbsp;&nbsp;
+                    Dragon-Alpha&Cu32: Open-source Java Deep-Learning Framework and High-Performance GPU Library
+                </b>
+                <p class="nametext">Zhiyi Zhang, Pengfei Zhang, Zhuopin Xu.</p>
+                <p class="pubtext">
                     Arix Preprint.
                     <a href="papers/Alpha.pdf">[pdf]</a>
                 </p>

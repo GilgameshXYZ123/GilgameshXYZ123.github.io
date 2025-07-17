@@ -12,7 +12,13 @@
             
             .main{
                 font-family: "Times New Roman";
+                font-style: normal;
                 margin-left: 20pt;
+                text-align: left;
+            }
+            
+            .img{
+                vertical-align: bottom;
             }
             
             .title{
@@ -32,6 +38,7 @@
             
             .text{
                 font-size: 18pt;
+                font-style: normal;
                 margin-left: 40pt;
                 text-align: left;
             }
@@ -61,16 +68,16 @@
     </head>
     <body class="main">
         <div>
-            <b class="title">张智溢 &nbsp;&nbsp;&nbsp;&nbsp; Zhiyi Zhang</b>
-            <table id="self-intro">
+            <b class="title">Zhiyi Zhang</b>
+            <table>
                 <tr>
                     <th width="100"></th>
-                    <th><img src="img/visa.jpg" width="250"></th>
-                    <th width="1000"><p class="text">
+                    <th><img id="myfig" src="img/photo1.jpg" alt="my photo" height="300"></th>
+                    <th width="900"><p class="text">
                             Hi there!<br>
-                            I born in 2000, raised in Anhui province, China.
-                            I am currently thrid-year Master student at the University of Science and Technology of China (USTC),
-                            and I will start my Doctoral Career after September 2025.<br>
+                            I was born in 2000, raised in Anhui province, China.
+                            Currently, I am a thrid-year Master student at the University of Science and Technology of China (USTC),
+                            and I will start my Doctoral career after September 2025.<br>
                             My research interests include Deep Learning, Parallel Computing, Computer Architecture.
                             Recently, I pay more attentions on Large Language Models (LLMs).
                             Let's chat if you are into them too.
@@ -82,11 +89,11 @@
             </table>
             <table>
                 <tr>
-                    <th><img src="img/email-icon.jpeg" height="22">&nbsp;&nbsp;</th>
+                    <th><img class="img" src="img/email-icon.jpeg" alt="mail-icon" height="22">&nbsp;&nbsp;</th>
                     <th class="link">gilgamesh@mail.ustc.edu.cn</th>
                 </tr>
                 <tr>
-                    <th><img src="img/github-icon.jpeg" height="30">&nbsp;&nbsp;</th>
+                    <th><img class="img" src="img/github-icon.jpeg" alt="github-icon" height="30">&nbsp;&nbsp;</th>
                     <th class="link">https://github.com/GilgameshXYZ123</th>
                 </tr>
             </table>
@@ -123,62 +130,60 @@
             <h2 class="section">First-Author Publications</h2>
             <div>
                 <b class="subsection">
+                    <a href="papers/WinRS.pdf"><img class="img" src="img/pdf.jpeg" alt="pdf-link" height="37"></a>
                     2025 &nbsp;&nbsp;
                     WinRS: Accelerate Winograd Backward-Filter Convolution with Tiny Workspace
                 </b>
                 <p class="nametext">Zhiyi Zhang, Junshi Chen, Jingwei Sun, Pengfei Zhang, Zhuopin Xu, Junshi, Qi Wang.</p>
-                <p class="pubtext">
-                    Accepted by International Conference on Parallel Processing (ICPP).
-                    <a href="papers/WinRS.pdf">[pdf]</a>
-                </p>
-            </div>
-            <div>
-                <b class="subsection"> 
-                    2025 &nbsp;&nbsp;
-                    Common Feature Representation Learning for Multi-Crop Seed Classification via Hyperspectral Images</b>
-                <p class="nametext">Zhiyi Zhang, Jiading Yuan, Pengfei Zhang, Zhuopin Xu, Qi Wang.</p>
-                <p class="pubtext">
-                    In Submission. 
-                    <a href="papers/CFRL.pdf">[pdf]</a>
-                </p>
+                <p class="pubtext">Accepted by International Conference on Parallel Processing (ICPP).</p>
             </div>
             <div>
                 <b class="subsection">
+                    <a href="papers/CFRL.pdf"><img class="img" src="img/pdf.jpeg" alt="pdf-link" height="37"></a>
+                    2025 &nbsp;&nbsp;
+                    Common Feature Representation Learning for Multi-Crop Seed Classification via Hyperspectral Images
+                </b>
+                <table>
+                <p class="nametext">Zhiyi Zhang, Jiading Yuan, Pengfei Zhang, Zhuopin Xu, Qi Wang.</p>
+                <p class="pubtext">In Submission.</p>
+            </div>
+            <div>
+                <b class="subsection">
+                    <a href="papers/Im2col-Winograd.pdf"><img class="img" src="img/pdf.jpeg" alt="pdf-link" height="37"></a>
                     2024 &nbsp;&nbsp;
                     Im2col-Winograd: An Efficient and Flexible Fused-Winograd Convolution for NHWC Format on GPUs
                 </b>
                 <p class="nametext">Zhiyi Zhang, Pengfei Zhang, Zhuopin Xu, Bingjie Yan, Qi Wang.</p>
-                <p class="pubtext">
-                    Accepted by International Conference on Parallel Processing (ICPP)
-                    <a href="papers/Im2col-Winograd.pdf">[pdf]</a>
-                </p>
+                <p class="pubtext">Accepted by International Conference on Parallel Processing (ICPP)</p>
             </div>
             <div>
                 <b class="subsection">
+                    <a href="papers/C-K-S.pdf"><img class="img" src="img/pdf.jpeg" alt="pdf-link" height="37"></a>
                     2023 &nbsp;&nbsp;
                     Reduce Computational Complexity for Convolutional Layers by Skipping Zeros
                 </b>
                 <p class="nametext">Zhiyi Zhang, Pengfei Zhang, Zhuopin Xu, Bingjie Yan, Qi Wang.</p>
-                <p class="pubtext">
-                    IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)
-                    <a href="papers/C-K-S.pdf">[pdf]</a>
-                </p>
+                <p class="pubtext">IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)</p>
             </div>
             <div>
                 <b class="subsection">
+                    <a href="papers/Alpha.pdf"><img class="img" src="img/pdf.jpeg" alt="pdf-link" height="37"></a>
                     2023 &nbsp;&nbsp;
                     Dragon-Alpha&Cu32: Open-source Java Deep-Learning Framework and High-Performance GPU Library
                 </b>
                 <p class="nametext">Zhiyi Zhang, Pengfei Zhang, Zhuopin Xu.</p>
-                <p class="pubtext">
-                    Arix Preprint.
-                    <a href="papers/Alpha.pdf">[pdf]</a>
-                </p>
+                <p class="pubtext">Arix Preprint.</p>
             </div>
         </div>
         <script>
-//            si = document.getElementById("self-intro");
-//            si.innerHTML = "<tr></tr>"
+            index = 0;
+            function slide_photo() {
+                mf = document.getElementById("myfig");
+                arr = ["img/photo1.jpg", "img/photo2.jpg", "img/photo3.jpg", "img/photo4.jpg", "img/photo5.jpg"];
+                mf.src = arr[index];
+                index = (index + 1) % arr.length;
+            }
+//            setInterval(slide_photo, 5000);
        </script>
     </body>
    

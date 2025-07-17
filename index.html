@@ -4,6 +4,12 @@
         <title>Welcome to my page.</title>
         <meta charset="UTF-8">
         <style>
+            body{
+                background-image: url("./img/bg.jpeg");
+                background-repeat: repeat;
+                background-size: auto;
+            }
+            
             .main{
                 font-family: "Times New Roman";
                 margin-left: 20pt;
@@ -30,20 +36,33 @@
                 text-align: left;
             }
             
+            .link{
+                font-size: 18pt;
+                color: darkblue;
+                margin-left: 40pt;
+                text-align: left;
+            }
+            
             .nametext{
                 font-size: 16pt;
                 margin-left: 100pt;
             }
+            
             .pubtext{
                 font-size: 16pt;
                 margin-left: 100pt;
+            }
+            
+            .bg-animation{
+                width: 100%;
+                height: 500px;
             }
         </style>
     </head>
     <body class="main">
         <div>
             <b class="title">张智溢 &nbsp;&nbsp;&nbsp;&nbsp; Zhiyi Zhang</b>
-            <table>
+            <table id="self-intro">
                 <tr>
                     <th width="100"></th>
                     <th><img src="img/visa.jpg" width="250"></th>
@@ -56,13 +75,21 @@
                             Recently, I pay more attentions on Large Language Models (LLMs).
                             Let's chat if you are into them too.
                             My interests might evovle, but I sincerely want to stay curious and keep learning.<br>
-                            Beyond research, I like various things, sports, art, computer games, delicious foods, science, military, politics ...
+                            Beyond research, I like sports, art, computer games, delicious foods, science, military, politics ...
                             I am out-going and always happy to make new friends!
                     </p></th>
                 </tr>
             </table>
-            <p class="text">Mail: gilgamesh@mail.ustc.edu.cn</p>
-            <p class="text">Github: https://github.com/GilgameshXYZ123</p>
+            <table>
+                <tr>
+                    <th><img src="img/email-icon.jpeg" height="22">&nbsp;&nbsp;</th>
+                    <th class="link">gilgamesh@mail.ustc.edu.cn</th>
+                </tr>
+                <tr>
+                    <th><img src="img/github-icon.jpeg" height="30">&nbsp;&nbsp;</th>
+                    <th class="link">https://github.com/GilgameshXYZ123</th>
+                </tr>
+            </table>
         </div>
         <br>
         <!--=====[Education]=================================================-->
@@ -149,8 +176,10 @@
                 </p>
             </div>
         </div>
-        
-        
-        
+        <script>
+//            si = document.getElementById("self-intro");
+//            si.innerHTML = "<tr></tr>"
+       </script>
     </body>
+   
 </html>
